@@ -14,3 +14,11 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+Question 1
+1) Asymtotic analysis considers contant factors as negligable, but depending on the input size it can make a considerable actual performance and memory consumption.
+2) Asymtotic anlaysis doesn't consider the specific hardware specifications of the machine the program runs on, which is usually different machine to machine.
+3) Asymtotic analaysis focuses on the big picture, but even though for larger datasets the asymtotic complexity of one program may be better than another, if we onl are using smaller inputs sizes the asymtotic complexity can be misleading. 
+
+Question 2
+The asymtotic complexity of a binary search is O(log(n)), thus if $\frac{5}{3} log(1000) = 5$, I would say the run time for n = 10000 would be about $\frac{5}{3} log(10000) \approx 6.666$
