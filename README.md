@@ -20,11 +20,11 @@ Question 1
 2) Asymtotic analaysis doesn't consider the specific hardware specifications of the machine the program in running on, which is usually different machine to machine.
 3) Asymtotic analaysis focuses on the big picture, so even though for larger datasets the asymtotic complexity of one program may be better than another, if we only want to use smaller inputs sizes the asymtotic complexity can be misleading. 
 
-Question 2
-
+Question 2: 
 The asymtotic complexity of a binary search is O(log(n)), thus if $\frac{5}{3} log(1000) = 5$, I would say the run time for n = 10000 would be around $\frac{5}{3} log(10000) \approx 6.666$
 
 
 Question 3
-
-This could be a hardware problem, where certain aspects of the the machine's hardware made it process the list slower. It could also be that the search algorithm has to perform complex checks on node specific details, which could slow down the search if each node needs alot of details checked. It could also be an issue with the algorithm implementation where it appears to work efficiently on small inputs but when scaled to larger inputs it isn't as efficient. This can happen because of issues with loops, recursion, or how input are stored. 
+1) This could be a hardware problem, where certain aspects of the the machine's hardware made it process the list slower. 
+2) It could be that the search algorithm has to perform complex checks on node specific details, which could slow down the search if each node needs alot of details checked. 
+3) It could be an issue with the algorithm implementation where it appears to work efficiently on small inputs but when scaled to larger inputs it isn't as efficient. This can happen because of issues with loops, recursion, or how input are stored. 
